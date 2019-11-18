@@ -4,13 +4,17 @@ A module for Quill rich text editor to allow images alignment and optioned size 
 
 This module depends on [quill-image-resize-module](https://github.com/Etoile984816138/quill-image-resize-module), I had same changes with this module for myself.
 
+## Install
+
+npm install quilljs-image-toolbar --save
+
 ## Usage
 
 ### Webpack/ES6
 
 ```javascript
 import Quill from 'quill';
-import { imageToolbar } from 'quill-image-toolbar';
+import { imageToolbar } from 'quilljs-image-toolbar';
 
 Quill.register('modules/imageToolbar', imageToolbar);
 

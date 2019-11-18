@@ -1,5 +1,5 @@
 {
-  "name": "quill-image-toolbar",
+  "name": "quilljs-image-toolbar",
   "version": "0.0.3",
   "description": "A module for Quill rich text editor to allow images to be resized.",
   "main": "quill-image-toolbar.min.js",
