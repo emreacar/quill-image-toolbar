@@ -2,7 +2,7 @@
     "name": "quill-image-toolbar",
     "version": "0.0.1",
     "description": "A module for Quill rich text editor to allow images to be resized.",
-    "main": "quill-image-toolbar.js",
+    "main": "quill-image-toolbar.min.js",
     "keywords": [
       "quill",
       "quilljs",
@@ -10,6 +10,17 @@
       "resize",
       "sizer"
     ],
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "release": "webpack -p --progress --colors",
+      "dev": "webpack --progress --colors --watch",
+      "lint": "eslint --ext js,es6 src",
+      "fixlint": "eslint --fix --ext js,es6 src"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/emreacar/quill-image-toolbar.git"
+    },
     "devDependencies": {
       "babel-cli": "^6.24.0",
       "babel-eslint": "^7.2.1",
